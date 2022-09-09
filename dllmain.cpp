@@ -97,7 +97,7 @@ DWORD WINAPI HackThread(HMODULE hModule)
 	Hook SwapBuffersHook("wglSwapBuffers", "opengl32.dll", (BYTE*)hkwglSwapBuffers, (BYTE*)&wglSwapBuffersGateway, 5);
 	SwapBuffersHook.Enable();
 
-	//auto eject after 15 seconds
+
 
 	if (GetAsyncKeyState(VK_END) & 1) {
 		SwapBuffersHook.Disable();
