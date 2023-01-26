@@ -1,4 +1,4 @@
-# AC_Internal-
+# AC_Internal- THIS IS NOT TO BE USED ONLINE AND IS FOR EDUCATIONAL PURPOSES
 
 This is my first internal hack using openGL
 
